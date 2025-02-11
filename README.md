@@ -1,5 +1,5 @@
-# [name of project]
-Short description of project
+# Java String Builder Examples
+Examples of using Java's StringBuilder class.
 
 ## Tools Used
 
