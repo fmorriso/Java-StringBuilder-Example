@@ -8,8 +8,9 @@ public class Main {
         String original_text = "ABCDEFG";
         StringBuilder sbr = new StringBuilder(original_text);
         System.out.format("Original string of length %d: %s%n", sbr.length(),  sbr);
-        String replacement = "Z";
-        int start_index = 0, end_index = sbr.length();
+        String replacement = "WXYZ";
+        int start_index = sbr.indexOf("C");
+        int end_index = start_index + 1;
         sbr.replace(start_index, end_index, replacement);
         System.out.format("After replacing from %d to %d with %s, sbr=%s%n", start_index, end_index, replacement, sbr);
     }
